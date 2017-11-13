@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/dtgzl2_pie_chart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+    </LinearLayout>
+
+
+    <!--时间范围-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <!-- 时间段 -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:divider="@drawable/divider"
+            android:dividerPadding="1dp"
+            android:showDividers="end"
+            >
+            <TextView
+                android:id="@+id/dtgzl2_startTime_tv"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/gray_selector"
+                android:hint="开始时间"
+                />
+        </LinearLayout>
+
+
+        <ImageView
+            android:src="@drawable/arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            />
+        <!-- 时间段 -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:divider="@drawable/divider"
+            android:dividerPadding="1dp"
+            android:showDividers="end"
+            >
+            <TextView
+                android:id="@+id/dtgzl2_endTime_tv"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/gray_selector"
+                android:hint="结束时间"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--查询按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/dtgzl2_search"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_blue"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="8dp"
+            android:text="查询"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

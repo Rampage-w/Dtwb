@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<com.sdhmw.dtwb.utils.SegmentView
+        android:id="@+id/segmentview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"></com.sdhmw.dtwb.utils.SegmentView>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        >
+        <!-- 时间段 -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:divider="@drawable/divider"
+            android:dividerPadding="1dp"
+            android:showDividers="end"
+            >
+            <TextView
+                android:id="@+id/startTime_tv"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/gray_selector"
+                android:hint="开始时间"
+                />
+        </LinearLayout>
+
+
+        <ImageView
+            android:src="@drawable/arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            />
+        <!-- 时间段 -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:divider="@drawable/divider"
+            android:dividerPadding="1dp"
+            android:showDividers="end"
+            >
+            <TextView
+                android:id="@+id/endTime_tv"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/gray_selector"
+                android:hint="结束时间"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <lecho.lib.hellocharts.view.ColumnChartView
+        android:id="@+id/chart1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+</LinearLayout>

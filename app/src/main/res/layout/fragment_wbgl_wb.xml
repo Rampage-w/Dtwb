@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+       android:background="#000"
+       app:pstsIndicatorColor="#345"
+       app:pstsUnderlineColor="#781"
+
+       android:textSize="16.0sp"
+       android:textColor="#fff"
+       app:pstsTabPaddingLeftRight="51dp"
+    -->
+
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/wbgl_wb_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:textSize="16sp"
+        app:pstsIndicatorColor="#47B0ED"
+
+        app:pstsIndicatorHeight="5dp"
+        app:pstsShouldExpand="true"
+
+        >
+    </com.astuetz.PagerSlidingTabStrip>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/wbgl_wb_tabs"
+
+        android:id="@+id/wbgl_wb_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v4.view.ViewPager>
+
+
+    <!-- 确定 取消 按钮 -->
+    <RelativeLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <!-- <Button
+      android:id="@+id/sign"
+      android:layout_width="100dp"
+      android:layout_height="35dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="40dp"
+
+      android:background="@drawable/shape_bluebtn2"
+      android:textColor="@android:color/white"
+      style="?android:attr/borderlessButtonStyle"
+      android:gravity="center"
+      android:text="用户签名" />
+
+        <Button
+      android:id="@+id/save"
+      android:layout_width="100dp"
+      android:layout_height="35dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="40dp"
+
+      android:background="@drawable/shape_bluebtn2"
+      android:textColor="@android:color/white"
+      style="?android:attr/borderlessButtonStyle"
+      android:gravity="center"
+      android:text="完成" /> -->
+
+
+
+        <Button
+            android:id="@+id/wbgl_save_btn"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginRight="40dp"
+
+            android:background="@drawable/shape_bluebtn"
+            android:textColor="@android:color/white"
+            style="?android:attr/borderlessButtonStyle"
+            android:gravity="center"
+            android:text="完成" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

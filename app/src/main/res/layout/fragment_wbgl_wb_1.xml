@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="注册代码："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/zcdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="primary"
+            android:text="2017-11-10"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="设备名称："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="primary"
+            android:text="2017-11-10"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="所在县区："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/quxian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="primary"
+            android:text="2017-11-10"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="使用单位："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/sbsydw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="primary"
+            android:text="2017-11-10"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="设备使用地点："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/sbsydd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="primary"
+            android:text="2017-11-10"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="单位内部编号："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/dwnbbh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="primary"
+            android:text="2017-11-10"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="出厂编号："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/ccbh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="primary"
+            android:text="2017-11-10"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="上次维保日期："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/scwbrq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="primary"
+            android:text="数据表无此字段"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="下次检验日期："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/xcjyrq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="primary"
+            android:text="2017-11-10"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="上次维保存在问题："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.AwesomeTextView
+            android:id="@+id/scwbwt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="primary"
+            android:text="数据表无此字段"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <!--
+    设备名称
+    设备名称
+    所在县区
+    使用单位
+    设备使用地点
+单位内部编号
+出厂编号
+上次维保日期
+检验日期
+上次维保存在问题
+
+    -->
+
+
+
+
+</LinearLayout>

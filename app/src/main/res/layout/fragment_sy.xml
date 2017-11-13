@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+pstsIndicatorColor   滑动条的颜色
+pstsUnderlineColor   滑动条所在的那个全宽线的颜色
+pstsDividerColor   每个标签的分割线的颜色
+pstsIndicatorHeight       滑动条的高度
+pstsUnderlineHeight    滑动条所在的那个全宽线的高度
+pstsDividerPadding   分割线底部和顶部的填充宽度
+pstsTabPaddingLeftRight  每个标签左右填充宽度
+pstsScrollOffset
+pstsTabBackground   每个标签的背景，应该是一个StateListDrawable
+pstsShouldExpand    如果设置为true，每个标签是相同的控件，均匀平分整个屏幕，默认是false
+pstsTextAllCaps    如果为true，所有标签都是大写字母，默认为true
+
+    -->
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/sy_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:textSize="16sp"
+        app:pstsIndicatorColor="#47B0ED"
+        app:pstsIndicatorHeight="5dp"
+        app:pstsShouldExpand="true"
+
+
+        >
+
+
+        <!--app:pstsIndicatorColor="#808080"
+            #FF0000
+            #47B0ED
+        -->
+
+    </com.astuetz.PagerSlidingTabStrip>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/sy_tabs"
+
+        android:id="@+id/bggl_dbrw_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v4.view.ViewPager>
+
+
+
+
+</RelativeLayout>

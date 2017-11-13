@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="使用单位："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/sydw_bet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="info"
+            app:roundedCorners="true"
+            android:hint="info"
+            android:drawableRight="@drawable/ic_clear_16"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="注册代码："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="info"
+            app:roundedCorners="true"
+            android:hint="info"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="所在区域："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="info"
+            app:roundedCorners="true"
+            android:hint="info"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="维保日期开始："
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+
+            android:id="@+id/wbrq_start_txt"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="info"
+            app:roundedCorners="true"
+            android:hint="请输入开始维保日期"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="维保日期结束："
+            android:textSize="16sp" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/wbrq_end_txt"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapBrand="info"
+            app:bootstrapSize="md"
+            app:roundedCorners="true"
+            android:hint="请输入结束维保日期"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/bggl_cxbg_cx_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_bluebtn2"
+            android:gravity="center"
+            android:text="查询"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

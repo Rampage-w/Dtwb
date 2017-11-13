@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#47B0ED</color>       <!--#FF4081-->
+
+
+    <color name="tab_light_color">#47B0ED</color>
+    <color name="tab_color">#cdcdcd</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+
+
+
+
+   <!-- <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#689F38</color>-->
+    <color name="textColorPrimary">#FFFFFF</color>
+
+
+    <color name="text_color">#333</color>
+    <color name="view_line">#ffe6e6e6</color>
+
+
+    <!--  右上角的菜单 -->
+    <color name="transparent_background_button">#11000000</color>
+    <color name="transparent_background">#ffffff</color>
+    <color name="grayd">#808080</color>
+
+</resources>

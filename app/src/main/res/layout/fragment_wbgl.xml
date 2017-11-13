@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:divider="@drawable/divider_list_serach_item"
+            android:dividerPadding="1dp"
+            android:showDividers="end"
+            >
+            <EditText
+                android:id="@+id/wbgl_sbsydw_et"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:hint="使用单位"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:divider="@drawable/divider_list_serach_item"
+            android:dividerPadding="1dp"
+            android:showDividers="end"
+            >
+            <EditText
+                android:id="@+id/wbgl_zcdm_et"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:hint="注册代码"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:divider="@drawable/divider_list_serach_item"
+            android:dividerPadding="1dp"
+            android:showDividers="end"
+            >
+            <!--<EditText
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="所在区域"
+                android:singleLine="true"
+                />-->
+
+            <TextView
+                android:id="@+id/wbgl_szqy_tv"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/gray_selector"
+                android:hint="所在区域"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+        <!--时间范围-->
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+            &lt;!&ndash; 时间段 &ndash;&gt;
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+
+                android:divider="@drawable/divider"
+                android:dividerPadding="1dp"
+                android:showDividers="end"
+                >
+                <TextView
+                    android:id="@+id/wbgl_startTime_tv"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/gray_selector"
+                    android:hint="维保开始时间"
+                    />
+            </LinearLayout>
+
+
+            <ImageView
+                android:src="@drawable/arrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                />
+            &lt;!&ndash; 时间段 &ndash;&gt;
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+
+                android:divider="@drawable/divider"
+                android:dividerPadding="1dp"
+                android:showDividers="end"
+                >
+                <TextView
+                    android:id="@+id/wbgl_endTime_tv"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/gray_selector"
+                    android:hint="维保结束时间"
+                    />
+            </LinearLayout>
+        </LinearLayout>-->
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/wbgl_search_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_blue"
+                android:paddingBottom="8dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="8dp"
+                android:text="查询"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

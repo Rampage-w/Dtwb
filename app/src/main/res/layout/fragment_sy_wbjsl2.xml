@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!-- 时间段 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:divider="@drawable/divider"
+            android:dividerPadding="1dp"
+            android:focusable="true"
+
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:showDividers="end">
+
+            <TextView
+                android:id="@+id/wbjsl2_startTime_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/gray_selector"
+                android:hint="开始时间"
+                android:padding="5dp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow" />
+        <!-- 时间段 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:divider="@drawable/divider"
+            android:dividerPadding="1dp"
+            android:focusable="true"
+
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:showDividers="end">
+
+            <TextView
+                android:id="@+id/wbjsl2_endTime_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/gray_selector"
+                android:hint="结束时间"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+
+            <Button
+                android:id="@+id/wbjsl2_search"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_blue"
+                android:text="查询"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/wbjsl2_mBarChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+
+        >
+
+
+    </com.github.mikephil.charting.charts.BarChart>
+
+
+
+</LinearLayout>

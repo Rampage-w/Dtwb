@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>    <!--导航栏最上面的颜色5.0以后-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>    <!--导航栏颜色-->
+        <item name="colorAccent">@color/colorAccent</item>          <!--空间选中后颜色-->
+
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+</resources>

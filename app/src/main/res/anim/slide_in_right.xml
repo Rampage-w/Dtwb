@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--结束动画 在跳转之后的activity写-->
+    <translate
+        android:fromXDelta="100.0%p"
+        android:duration="300"
+        android:toXDelta="0.0"
+        />
+
+
+</set>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">电梯维保</string>
+
+
+    <array name="home_video_tab">
+        <item>维保电梯数量@dream@0</item>
+        <item>维保及时率@dream@1</item>
+        <item>电梯故障率@dream@2</item>
+    </array>
+
+    <!--底部tab item-->
+
+    <string name="sy">首页</string>
+    <string name="wbgl">维保管理</string>
+
+    <string name="wbpj">维保评价</string>
+    <string name="wbgz">维保关注</string>
+
+    <string name="wdrw">我的任务</string>
+    <string name="bggl">报告管理</string>
+    <string name="tjfx">统计分析</string>
+    <string name="wd">我的</string>
+
+
+
+
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/item_selector"
+	>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+		<CheckBox
+			android:layout_gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/select_checkbox"/>
+
+		<View
+			android:layout_width="1.5dip"
+			android:layout_height="fill_parent"
+			android:background="#B4B3B3"/>
+
+		<!-- <TextView
+		    android:id="@+id/text"
+		    android:text="条目"
+		    android:textSize="18sp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textAlignment="center"
+		    android:layout_gravity="center_vertical"
+		    /> -->
+		<TextView
+			android:id="@+id/text"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:paddingBottom="10dip"
+			android:paddingTop="10dip"
+			android:textColor="#000000"
+			android:textSize="15sp"
+			android:singleLine="true"
+			android:text="受理编号" />
+		<View
+			android:layout_width="1.5dip"
+			android:layout_height="fill_parent"
+			android:background="#B4B3B3"/>
+
+		<TextView
+			android:id="@+id/text_goods_name"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:paddingBottom="10dip"
+			android:paddingTop="10dip"
+			android:textColor="#000000"
+			android:textSize="15sp"
+			android:singleLine="true"
+			android:gravity="center"
+			android:text="设备类型" />
+
+		<View
+			android:layout_width="1.5dip"
+			android:layout_height="fill_parent"
+			android:background="#B4B3B3"/>
+
+		<TextView
+			android:id="@+id/text_codeBar"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:paddingBottom="10dip"
+			android:textColor="#000000"
+			android:paddingTop="10dip"
+			android:textSize="15sp"
+			android:gravity="center"
+			android:text="山东海明威智能科技有限责任公司" />
+
+		<View
+			android:layout_width="1.5dip"
+			android:layout_height="fill_parent"
+			android:background="#B4B3B3"/>
+
+		<TextView
+			android:id="@+id/text_num"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:paddingBottom="10dip"
+			android:paddingTop="10dip"
+			android:textColor="#000000"
+			android:singleLine="true"
+			android:textSize="15sp"
+			android:gravity="center"
+			android:text="检验种类" />
+	</LinearLayout>
+	<View
+		android:layout_height="1px"
+		android:layout_width="match_parent"
+		android:background="@android:color/darker_gray"
+		/>
+
+</LinearLayout>

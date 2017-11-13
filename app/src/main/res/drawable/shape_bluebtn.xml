@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape>
+            <!-- 填充  -->
+            <solid android:color="#477AAD"/>
+            <!-- 圆角 -->
+            <corners
+                android:topLeftRadius="4dp"
+                android:topRightRadius="4dp"
+                android:bottomLeftRadius="4dp"
+                android:bottomRightRadius="4dp"/>
+
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape>
+            <!-- 填充 #47B0ED  颜色改变的时候RGB三个值同等的减少相应的数 颜色变暗-->
+            <solid android:color="#336699"/>
+            <!-- 圆角 -->
+            <corners
+                android:topLeftRadius="4dp"
+                android:topRightRadius="4dp"
+                android:bottomLeftRadius="4dp"
+                android:bottomRightRadius="4dp"/>
+
+        </shape>
+    </item>
+</selector>

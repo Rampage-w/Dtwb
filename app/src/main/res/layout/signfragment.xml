@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+		<Button
+		    android:id="@+id/cancel" 
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:text="取消"
+		    android:gravity="center"
+		    
+		    android:layout_margin="2dp"
+		    
+		    android:background="@drawable/shape_bluebtn2"
+            android:textColor="@android:color/white"
+            style="?android:attr/borderlessButtonStyle"
+		    />
+		<Button
+		    android:id="@+id/clear" 
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:text="清除"
+		    android:gravity="center"
+		    
+		    android:layout_margin="2dp"
+		    
+		    android:background="@drawable/shape_bluebtn2"
+            android:textColor="@android:color/white"
+            style="?android:attr/borderlessButtonStyle"
+		    />
+		<Button
+		    android:id="@+id/sure" 
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:text="确定"
+		    android:gravity="center"
+		    
+		    android:layout_margin="2dp"
+		    
+		    android:background="@drawable/shape_bluebtn2"
+            android:textColor="@android:color/white"
+            style="?android:attr/borderlessButtonStyle"
+		    />
+        
+        
+    </LinearLayout>
+	
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="签字区"
+	    
+	    />
+	  <com.sdhmw.dtwb.utils.LinePathView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageupload_linePathView"
+        android:background="#FFFFFF"
+        />
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#A7A5A5"/>
+
+    <!-- 调用外部控件的布局list_item布局 -->
+    <include
+        layout="@layout/recyclerview_item_wbgz_cx_list_head"
+        android:id="@+id/table_title"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#A7A5A5"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+            >
+
+            <!-- 可多选列表 -->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView_wbgz_cx_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/wbgz_cx_list_gz_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_bluebtn2"
+                android:gravity="center"
+                android:text="关注"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

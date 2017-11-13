@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item 
+        android:state_selected="true" 
+        android:color="#ffffff">     
+    </item>
+    
+    <item 
+        android:color="#47B0ED"
+        
+        >   
+    </item>
+<!-- #00B38B
+ #288455-->
+</selector>
